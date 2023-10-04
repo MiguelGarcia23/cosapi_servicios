@@ -1,0 +1,48 @@
+/* Body de la página */
+.projects-body {
+    padding: 3rem 2rem;
+}
+
+/* Cada tarjeta de proyecto */
+.projects-card{
+    height: 300px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    transition: opacity .2s;
+}
+
+.projects-card:hover {
+    opacity: 0.8 !important;
+}
+
+/* Info de cada tarjeta de proyecto */
+.projects-card-info {
+    position: absolute;
+    bottom: 16px;
+    left: 14px;
+}
+
+/* -------------------------------- MEDIA QUERIES ------------------------------- */
+
+/* Media queries versión Desktop */
+@media (min-width: 1050px){
+
+    /* Body de la página */
+    .projects-body {
+        padding: 5rem 3.75rem;
+    }
+
+    /* Cada tarjeta de proyecto */
+    .projects-card{
+        max-width: 640px;
+        height: 480px;
+    }
+
+    /* Info de cada tarjeta de proyecto */
+    .projects-card-info {
+        bottom: 40px;
+        left: 20px;
+    }
+}

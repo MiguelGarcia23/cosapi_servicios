@@ -1,0 +1,68 @@
+/* Galería de proyectos */
+.gallery-home {
+    padding: 2.5rem;
+}
+
+/* Cada proyecto de la galería */
+.gallery-home-project{
+    height: 300px;
+    max-width: 500px;
+    margin: 0 auto;
+    transition: opacity .2s;
+}
+
+.gallery-home-project:hover {
+    opacity: 0.8 !important;
+}
+
+/* Info de cada proyecto de la galería */
+.gallery-home-project-info {
+    position: absolute;
+    bottom: 16px;
+    left: 14px;
+}
+
+/* Botón de Ver más de la galería */
+.gallery-home-button {
+    display: block !important;
+    margin: 0 auto !important;
+    margin-top: 2.5rem !important;
+    width: 19.125rem !important;
+    text-transform: none !important;
+    border: 2px solid #0184EF !important;
+    border-radius: 8px !important;
+    padding: 0.5rem 0 !important;
+    transition: background-color .3s, border .3s, color .3s !important;
+}
+
+.gallery-home-button:hover {
+    background-color: #0184EF !important;
+    border: 2px solid white !important;
+}
+
+.gallery-home-button:hover h5 {
+    color: white !important;
+}
+
+/* -------------------------------- MEDIA QUERIES ------------------------------- */
+
+/* Media queries versión Desktop */
+@media (min-width: 1050px){
+
+    /* Galería de proyectos */
+    .gallery-home {
+        padding: 2.5rem 3.75rem;
+    }
+
+    /* Cada proyecto de la galería */
+    .gallery-home-project{
+        max-width: 640px;
+        height: 480px;
+    }
+
+    /* Info de cada proyecto de la galería */
+    .gallery-home-project-info {
+        bottom: 40px;
+        left: 20px;
+    }
+}

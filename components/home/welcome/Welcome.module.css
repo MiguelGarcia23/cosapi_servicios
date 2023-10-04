@@ -1,0 +1,87 @@
+/* Sección de bienvenida */
+.welcome-section {
+    padding: 0 2rem;
+    margin: 3rem 0 2rem 0;
+}
+
+/* Encabezado de bienvenida */
+.welcome-header {
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+
+/* Párrafo de bienvenida */
+.welcome-paragraph {
+    font-size: 1.25rem !important;
+    text-align: center !important;
+    font-weight: 500 !important;
+}
+
+/* Info de bienvenida */
+.welcome-info {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/* Sección de ítems de info de bienvenida */
+.welcome-info-items {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* Cada Ítem de info de bienvenida */
+.welcome-info-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: none;
+    align-items: center;
+    margin-bottom: 1.25rem;
+}
+
+.welcome-info-item h4 {
+    margin-bottom: 0.375rem;
+}
+
+/* -------------------------------- MEDIA QUERIES ------------------------------- */
+
+/* Media queries versión Tablet */
+@media (min-width: 768px){
+
+    /* Sección de bienvenida */
+    .welcome-section {
+        padding: 0 3.75rem;
+        margin: 5rem 0 4rem 0;
+    }
+
+    /* Encabezado de bienvenida */
+    .welcome-header {
+        width: 84vw;
+        margin-bottom: 5rem;
+    }
+
+    /* Párrafo de bienvenida */
+    .welcome-paragraph {
+        font-size: 1.5rem !important;
+    }
+
+    /* Info de bienvenida */
+    .welcome-info {
+        flex-wrap: nowrap;
+    }
+
+    /* Sección de ítems de info de bienvenida */
+    .welcome-info-items {
+        margin-top: 0;
+        margin-left: -20px;
+    }
+
+    /* Cada Ítem de info de bienvenida */
+    .welcome-info-item {
+        margin-bottom: 0.5rem;
+    }
+}

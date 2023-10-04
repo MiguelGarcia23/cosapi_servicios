@@ -1,0 +1,34 @@
+/* Body de la página */
+.edit-project-body {
+    padding: 5rem 3.75rem;
+}
+
+/* Caja del botón del formulario */
+.form-edit-project-button-box {
+    display: flex;
+    justify-content: center;
+}
+
+/* Botón del formulario */
+.form-edit-project-button {
+    width: 10rem !important;
+    text-transform: none !important;
+    border-radius: 8px !important;
+    font-size: 1.25rem !important;
+    font-weight: 900 !important;
+    padding: 0.5rem 0 !important;
+}
+
+/* Feedback de error en los input file */
+.alert-error-input-file {
+    color: #FF1744;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.66;
+    letter-spacing: 0.03333em;
+    text-align: left;
+    margin-top: 3px;
+    margin-right: 14px;
+    margin-bottom: 0;
+    margin-left: 14px;
+}

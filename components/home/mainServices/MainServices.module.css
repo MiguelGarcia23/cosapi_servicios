@@ -1,0 +1,25 @@
+/* Contenedor nuestros servicios populares */
+.main-services {
+    padding: 2.5rem 3.75rem;
+    background-image: url('/home/bg-main-services.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Botón de ver más */
+.main-services-see-more {
+    text-transform: none;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+/* Tarjeta de servicio */
+.card-service-home {
+    transition: opacity .2s;
+}
+
+.card-service-home:hover {
+    opacity: 0.9 !important;
+}
