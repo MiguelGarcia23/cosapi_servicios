@@ -12,15 +12,15 @@ import { BodyProject } from '../../components/proyectos';
 import { projects } from '../../utils/data/projects';
 import { FormContact } from '../../components/home';
 
-interface Props {
+/* interface Props {
     projects: Project[];
     params: {
         name: string;
     };
-}
+} */
 
 
-const ProjectPage: FC<Props> = ({ projects, params }) => {
+const ProjectPage = () => {
 
     const [ project, setProject ] = useState({
         id: 0,
@@ -33,11 +33,15 @@ const ProjectPage: FC<Props> = ({ projects, params }) => {
     });
 
     useEffect(() => {
+
+        let params = window.location.pathname;
       
         const projectDetail: any = projects.find( ( project: any ) => {
-            let nameProject = project.name;
+            let nameProject = project.name; 
+            nameProject = nameProject.toLowerCase();
+            nameProject = nameProject.replaceAll(' ', '%20');
     
-            return params.name == nameProject.toLowerCase();
+            return params == `/proyectos/${ nameProject }`;
         });
 
         setProject( projectDetail );
@@ -94,13 +98,13 @@ const ProjectPage: FC<Props> = ({ projects, params }) => {
     }
 } */
 
-export const getStaticPaths: GetStaticPaths = async (ctx) => {
+/* export const getStaticPaths: GetStaticPaths = async (ctx) => { */
 
     /* const projects = require('../../utils/data/projects.json'); */
 
     /* const { data } = await backend.get<ProjectListResponse>('/proyectos'); */
 
-    const projectsNames: string[] = projects.map( ( project: any ) => project.name );
+    /* const projectsNames: string[] = projects.map( ( project: any ) => project.name );
 
     return {
         paths: projectsNames.map( name => ({
@@ -108,9 +112,9 @@ export const getStaticPaths: GetStaticPaths = async (ctx) => {
         })),
         fallback: 'blocking'
     }
-}
+} */
 
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+/* export const getStaticProps: GetStaticProps = async ({ params }) => { */
 
     /* const { data } = await backend.get<ProjectListResponse>('/proyectos'); */
 
@@ -120,12 +124,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   
     const projects: Project[] = data.projects; */
   
-    return {
+    /* return {
       props: {
         projects,
         params
       }
     }
-}
+} */
 
 export default ProjectPage;
