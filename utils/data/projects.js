@@ -1,47 +1,47 @@
 export const projects = [
     {
         id: 1,
-        name: "Petromonagas",
-        duration: 40,
-        year: 2021,
-        image_project: "petromonagas.jpg",
-        image_company: "pdvsa.png",
-        services: ["mantenimiento"]
+        name: "PDVSA Petrosucre",
+        duration: 2,
+        year: 2010,
+        image_project: "petrosucre.jpg",
+        image_company: "petrosucre.png",
+        services: ["Mantenimiento de válvulas de seguridad y alivio", "Calibración de válvulas de seguridad y alivio"]
     },
     {
         id: 2,
-        name: "Consorcio IGP",
-        duration: 90,
-        year: 2021,
-        image_project: "consorcioIGP.jpg",
-        image_company: "repsol.png",
-        services: ["instalacion"]
+        name: "Petromonagas",
+        duration: 2,
+        year: 2020,
+        image_project: "petromonagas.jpg",
+        image_company: "petromonagas.png",
+        services: ["Mantenimiento de desaladores", "Mantenimiento de válvulas de control", "Reparación de válvulas de control"]
     },
     {
         id: 3,
-        name: "ORYX Resources de Venezuela C.A.",
-        duration: 90,
-        year: 2021,
-        image_project: "oryx.jpg",
-        image_company: "venequip.png",
-        services: ["calibracion, automatizacion"]
+        name: "Costa Norte Construcciones",
+        duration: 2,
+        year: 2010,
+        image_project: "costa-norte.jpg",
+        image_company: "costa-norte.png",
+        services: ["Mantenimiento de válvulas de control y seguridad"]
     },
     {
         id: 4,
-        name: "Costa Norte Construcción C.A.",
-        duration: 40,
-        year: 2022,
-        image_project: "costa_norte.jpg",
-        image_company: "vepica.png",
-        services: ["suministro, instalacion"]
+        name: "Pacific Logging, C.A.",
+        duration: 2,
+        year: 2021,
+        image_project: "pacific-logging.jpg",
+        image_company: "pacific-logging.png",
+        services: ["Mantenimiento a válvulas de seguridad y control"]
     },
     {
         id: 5,
-        name: "Petróleos de Venezuela S.A.",
-        duration: 60,
-        year: 2022,
-        image_project: "petroleos_de_venezuela.jpg",
-        image_company: "pdvsa.png",
-        services: ["mantenimiento, calibracion, automatizacion"]
+        name: "Venezolana de Proyectos Integrados, C.A.",
+        duration: 2,
+        year: 2021,
+        image_project: "vepica.jpg",
+        image_company: "vepica.png",
+        services: ["Mantenimiento de válvulas manuales, automáticas y de seguridad"]
     }
 ]

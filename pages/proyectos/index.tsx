@@ -8,6 +8,7 @@ import { Project, ProjectListResponse } from '../../interfaces';
 import { Layout } from '../../components/layouts';
 import { BannerProjects, BodyProjects } from '../../components/proyectos';
 import { projects } from '../../utils/data/projects';
+import { FormContact } from '../../components/home';
 
 interface Props {
     projects: Project[];
@@ -27,6 +28,8 @@ const ProjectsPage: FC<Props> = ({ projects }) => {
                 <BodyProjects 
                     projects = { projects }
                 />
+
+                <FormContact />
 
             </Box>
 

@@ -60,8 +60,8 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 3.75rem;
+    align-items: center;
+    margin-bottom: 2rem;
 }
 
 /* -------------------------------- MEDIA QUERIES ------------------------------- */

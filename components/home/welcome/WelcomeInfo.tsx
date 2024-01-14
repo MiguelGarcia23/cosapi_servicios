@@ -16,8 +16,8 @@ export const WelcomeInfo: FC = () => {
             <Image 
                 src='/home/welcome.png'
                 alt='Imagen de bienvenida'
-                width={ 900 }
-                height={ 600 }
+                width={ 800 }
+                height={ 750 }
             />
 
             <Box className={ styles['welcome-info-items']}>

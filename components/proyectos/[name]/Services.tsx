@@ -19,7 +19,7 @@ export const ServicesProject: FC<Props> = ({ services }) => {
         AOS.init({ duration: 2000 })
     }, [])
 
-    let newArrayServices: string[] = [];
+    /* let newArrayServices: string[] = [];
     
     services.forEach( service => {
 
@@ -40,7 +40,7 @@ export const ServicesProject: FC<Props> = ({ services }) => {
                 newArrayServices.push('Alquiler de equipos y suministro de personal especializado');
                 break;
         }
-    })
+    }) */
 
     return (
 
@@ -54,7 +54,7 @@ export const ServicesProject: FC<Props> = ({ services }) => {
 
                 <>
                     {
-                        newArrayServices.map( ( service, i ) => {
+                        services.map( ( service, i ) => {
 
                             return(
                                 <CardService 

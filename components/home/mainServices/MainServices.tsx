@@ -42,7 +42,7 @@ export const MainServices: FC = () => {
                     />
 
                     <CardMainServices 
-                        img='/execution/execution-supplies.jpg'
+                        img='/execution/execution-supplies.png'
                         alt='Imagen de suministro de equipos'
                         subtitle='Ejecución'
                         title='Suministro de equipos'

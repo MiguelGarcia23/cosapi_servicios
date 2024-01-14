@@ -29,72 +29,72 @@ export const EquipmentsInstallation: FC = () => {
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/separador-trifasico.jpg'
+                img= '/equipos/separador-trifasico.png'
                 alt= 'Separadores trifásicos'
                 title= 'Separadores trifásicos'
                 subtitle= 'Gas-Petróleo-Agua'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/desalador.jpg'
+                img= '/equipos/desalador.png'
                 alt= 'Desaladores'
                 title= 'Desaladores'
                 subtitle= 'Coalescedores electrostáticos'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/enfriador-industrial.jpg'
+                img= '/equipos/enfriador-industrial.png'
                 alt= 'Enfriadores industriales'
                 title= 'Enfriadores industriales'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/tanque-almacenamiento-crudo.jpg'
+                img= '/equipos/tanque-almacenamiento-crudo.png'
                 alt= 'Tanques de almacenamiento de crudo'
                 title= 'Tanques de almacenamiento de crudo'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/valvula-de-control.jpg'
+                img= '/equipos/valvula-de-control.png'
                 alt= 'Válvulas de control'
                 title= 'Válvulas de control'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/valvula-de-seguridad.jpg'
+                img= '/equipos/valvula-de-seguridad.png'
                 alt= 'Válvulas de seguridad y alivio'
                 title= 'Válvulas de seguridad y alivio'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/compresor.jpg'
+                img= '/equipos/compresor.png'
                 alt= 'Compresores'
                 title= 'Compresores'
                 subtitle= 'De desplazamiento positivos, Dinámicos'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/generador-electrico.jpg'
+                img= '/equipos/generador-electrico.png'
                 alt= 'Generadores eléctricos'
                 title= 'Generadores eléctricos'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/motor.jpg'
+                img= '/equipos/motor.png'
                 alt= 'Motores'
                 title= 'Motores'
                 subtitle= 'Eléctricos, De combustión interna'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/bomba.jpg'
+                img= '/equipos/bomba.png'
                 alt= 'Bombas'
                 title= 'Bombas'
                 subtitle= 'Centrífugas, Periféricas, Rotatorias, Reciprocantes'
               />
 
               <CardEquipmentsInstallation 
-                img= '/equipos/cabezal-de-rotacion.jpg'
+                img= '/equipos/cabezal-de-rotacion.png'
                 alt= 'Cabezales de rotación'
                 title= 'Cabezales de rotación'
               />

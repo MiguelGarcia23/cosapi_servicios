@@ -32,7 +32,7 @@ export const BodyDesing: FC = () => {
 
             <Box data-aos='fade-up' className={ styles['design-img']}>
                 <Image 
-                    src='/diagnostic-projects.png'
+                    src='/diagnostic/design-projects.png'
                     alt='Imagen de diseño'
                     layout='fill'
                 />

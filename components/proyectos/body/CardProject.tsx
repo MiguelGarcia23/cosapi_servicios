@@ -32,7 +32,7 @@ export const CardProject: FC<Props> = ({ img, alt, year, title }) => {
                         component='img'
                         image={`/projects/${ img }`}
                         alt={ alt }
-                        sx={{ width: '100%', height: '100%' }}
+                        sx={{ width: '100%', height: '100%', filter:' brightness(.6)' }}
                     />
 
                     <CardContent className={ styles['projects-card-info'] }>

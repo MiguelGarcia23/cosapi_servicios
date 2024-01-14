@@ -24,7 +24,7 @@ export const ClientsAboutUs: FC = () => {
 
         <Box data-aos='fade-up' className={ styles['about-us-clients'] }>
 
-            <Box sx={{ marginBottom: '3.75rem' }}>
+            <Box sx={{ marginBottom: '2rem' }}>
                 <Typography variant='h3' color='info.dark' fontWeight={ 900 } sx={{ fontSize: '2.5rem', marginBottom: '1.25rem' }}>
                     Nuestros clientes  
                 </Typography>
@@ -35,39 +35,30 @@ export const ClientsAboutUs: FC = () => {
 
             <Box className={ styles['about-us-clients-images'] }>
 
-                <Box>
+                <Box sx={{ marginLeft: '3rem' }}>
                     <Image 
                         src='/aboutUs/logo-pdvsa.png'
                         alt='Logo de PDVSA'
-                        width={ 230 }
+                        width={ 210 }
+                        height={ 60 }
+                    />
+                </Box>
+
+                <Box sx={{ marginLeft: '3rem' }}>
+                    <Image 
+                        src='/aboutUs/logo-petrosucre.png'
+                        alt='Logo de PDVSA Petrosucre'
+                        width={ 250 }
                         height={ 100 }
                     />
                 </Box>
 
-                <Box>
+                <Box sx={{ marginLeft: '3rem' }}>
                     <Image 
                         src='/aboutUs/logo-venequip.png'
                         alt='Logo de Venequip'
-                        width={ 230 }
-                        height={ 100 }
-                    />
-                </Box>
-
-                <Box>
-                    <Image 
-                        src='/aboutUs/logo-repsol.png'
-                        alt='Logo de Repsol'
-                        width={ 230 }
-                        height={ 100 }
-                    />
-                </Box>
-
-                <Box>
-                    <Image 
-                        src='/aboutUs/logo-vepica.png'
-                        alt='Logo de Vepica'
-                        width={ 230 }
-                        height={ 100 }
+                        width={ 220 }
+                        height={ 150 }
                     />
                 </Box>
                 

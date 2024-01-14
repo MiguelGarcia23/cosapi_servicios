@@ -31,7 +31,7 @@ export const BannerAboutUs: FC = () => {
             </Stack>
 
             <Typography variant='h2' color='info.main' className={ styles['title-about-us-banner'] }>
-                Sobre Cosapi
+                Sobre Nosotros
             </Typography>
             
         </Box>

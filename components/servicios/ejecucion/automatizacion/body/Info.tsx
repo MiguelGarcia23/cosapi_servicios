@@ -6,6 +6,8 @@ import 'aos/dist/aos.css';
 
 import { CardInfoAutomation } from './CardInfo';
 
+import styles from './Body.module.css';
+
 
 export const InfoAutomation: FC = () => {
 
@@ -15,9 +17,9 @@ export const InfoAutomation: FC = () => {
 
     return (
 
-        <Box sx={{ marginBottom: '3.75rem' }}>
+        <Box className={ styles['automation-info']}>
 
-            <Grid container spacing={ 2 } sx={{ justifyContent: 'center', marginBottom: '2.5rem' }} data-aos='fade-up'>
+            <Grid container spacing={ 2 } sx={{ width: '85%', justifyContent: 'center', marginBottom: '2.5rem' }} data-aos='fade-up'>
 
                 <CardInfoAutomation 
                     img='/automatizacion/icono-productividad.png'

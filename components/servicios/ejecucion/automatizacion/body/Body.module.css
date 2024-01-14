@@ -24,6 +24,14 @@
     font-weight: 700 !important; 
 }
 
+/* Info de la página */
+.automation-info {
+    margin: 0 auto !important;
+    margin-bottom: 3.75rem !important;
+    display: flex !important;
+    justify-content: center !important;
+}
+
 /* Footer de la página */
 .automation-footer {
     padding: 0 2rem;
@@ -47,6 +55,11 @@
     /* Link del título de intro a la página */
     .automation-intro-subtitle {
         width: 85% !important;
+    }
+
+    /* Info de la página */
+    .automation-info {
+        padding: 0 3.75rem;
     }
 
     /* Footer de la página */

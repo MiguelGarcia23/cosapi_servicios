@@ -10,6 +10,7 @@ import { getProjectInfo } from '../../utils';
 import { Layout } from '../../components/layouts';
 import { BodyProject } from '../../components/proyectos';
 import { projects } from '../../utils/data/projects';
+import { FormContact } from '../../components/home';
 
 interface Props {
     projects: Project[];
@@ -52,6 +53,8 @@ const ProjectPage: FC<Props> = ({ projects, params }) => {
                 <BodyProject 
                     project= { project }
                 />
+
+                <FormContact />
 
             </Box>
 

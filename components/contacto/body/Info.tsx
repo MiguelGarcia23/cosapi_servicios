@@ -24,7 +24,7 @@ export const InfoContact: FC = () => {
 
                     <Box className={ styles['contact-info-item'] }>
 
-                        <LocationOn fontSize='large' sx={{ display: 'block', margin: '0 auto', marginBottom: '1.25rem' }} />
+                        <LocationOn fontSize='large' sx={{ fontSize: '3.75rem !important', display: 'block', margin: '0 auto', marginBottom: '1.25rem' }} />
                         <Typography variant='h3' color='info.dark' sx={{ marginBottom: '0.75rem', textAlign: 'center' }}>Ubicación</Typography>
                         <Typography variant='body2' color='info.dark' sx={{ textAlign: 'center' }}>
                             Centro Empresarial Tecno Acero de Venezuela, Maturin-Estado Monagas
@@ -34,20 +34,20 @@ export const InfoContact: FC = () => {
 
                     <Box className={ styles['contact-info-item'] }>
 
-                        <PhoneInTalk fontSize='large' sx={{ display: 'block', margin: '0 auto', marginBottom: '1.25rem' }} />
+                        <PhoneInTalk fontSize='large' sx={{ fontSize: '3.75rem !important', display: 'block', margin: '0 auto', marginBottom: '1.25rem' }} />
                         <Typography variant='h3' color='info.dark' sx={{ marginBottom: '0.75rem', textAlign: 'center' }}>Teléfono</Typography>
                         <Typography variant='body2' color='info.dark' sx={{ marginBottom: '0.5rem', textAlign: 'center' }}>
-                            0414-7658324
+                            +58414-7658324
                         </Typography>
                         <Typography variant='body2' color='info.dark' sx={{ textAlign: 'center' }}>
-                            0412-0815310
+                            +58412-0815310
                         </Typography>
 
                     </Box>
 
                     <Box className={ styles['contact-info-item'] }>
 
-                        <Email fontSize='large' sx={{ display: 'block', margin: '0 auto', marginBottom: '1.25rem' }} />
+                        <Email fontSize='large' sx={{ fontSize: '3.75rem !important', display: 'block', margin: '0 auto', marginBottom: '1.25rem' }} />
                         <Typography variant='h3' color='info.dark' sx={{ marginBottom: '0.75rem', textAlign: 'center' }}>Email</Typography>
                         <Typography variant='body2' color='info.dark' sx={{ marginBottom: '0.5rem', textAlign: 'center' }}>
                             hcardenas@cosapi.com.ve

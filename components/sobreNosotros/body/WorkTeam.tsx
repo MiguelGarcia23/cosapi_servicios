@@ -29,7 +29,7 @@ export const WorkTeamAboutUs: FC = () => {
             <Box className={ styles['about-us-work-team-img'] }>
 
                 <Image 
-                    src='/aboutUs/work-team.png'
+                    src='/aboutUs/team.png'
                     alt='Equipo de trabajo de Cosapi'
                     layout='fill'
                 />

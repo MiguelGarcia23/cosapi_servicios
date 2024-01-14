@@ -52,7 +52,7 @@ export const Footer: FC = () => {
                         <Box sx={{ display: 'flex', marginBottom: '1rem' }}>
                             <PhoneInTalk color='info' sx={{ marginRight: '0.625rem'}} />
                             <Typography variant='body2' color='info.main'>
-                                0414-7658324
+                                +58414-7658324
                             </Typography>
                         </Box>
                         <Box sx={{ display: 'flex', marginBottom: '1rem' }}>

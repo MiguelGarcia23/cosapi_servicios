@@ -25,7 +25,7 @@ export const InfoProject: FC<Props> = ({ duration, image_company, year }) => {
         
         <Grid container spacing={ 1 } data-aos='fade-up'>
 
-            <Grid item xs={ 12 } md={ 4 }>
+            {/* <Grid item xs={ 12 } md={ 4 }>
 
                 <Box className={ styles['project-info-container'] }>
                     <WatchLater sx={{ fontSize: '3.75rem', color: 'black' }} />
@@ -35,14 +35,14 @@ export const InfoProject: FC<Props> = ({ duration, image_company, year }) => {
                     </Typography>
 
                     <Typography variant='body2' color='info.dark' fontWeight={ 500 } sx={{ fontSize: '1.5rem' }}>
-                        { duration } días
+                        { duration } semanas
                     </Typography>
                 </Box>
 
 
-            </Grid>
+            </Grid> */}
 
-            <Grid item xs={ 12 } md={ 4 }>
+            <Grid item xs={ 12 } md={ 6 }>
 
                 <Box className={ styles['project-info-container'] }>
                     <Image 
@@ -56,7 +56,7 @@ export const InfoProject: FC<Props> = ({ duration, image_company, year }) => {
 
             </Grid>
 
-            <Grid item xs={ 12 } md={ 4 }>
+            <Grid item xs={ 12 } md={ 6 }>
 
                 <Box className={ styles['project-info-container'] }>
                     <EventAvailable sx={{ fontSize: '3.75rem', color: 'black' }} />

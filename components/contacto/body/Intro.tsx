@@ -18,7 +18,7 @@ export const IntroContact: FC = () => {
 
             <Box className={ styles['contact-intro']}>
                 <Typography variant='h5' color='info.dark'>
-                    Nuestra empresa nace en 2007 con la principal misión de brindarle a nuestros clientes el mayor grado de satisfacción posible, proporcionándoles asesoría, mano de obra y suministros que resulten en soluciones confiables que garanticen la mejor calidad en sus proyectos.    
+                    ¿Listo para tu próximo proyecto? Estamos a su disposición para cualquier duda, completa el formulario y un profesional te contactará a la brevedad posible.    
                 </Typography>
             </Box>
 

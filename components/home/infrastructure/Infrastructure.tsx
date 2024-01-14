@@ -45,7 +45,7 @@ export const Infrastructure: FC = () => {
                 <Grid container spacing={ 0 } sx={{ justifyContent: 'center' }}>
 
                     <CardInfrastructure
-                        img='/home/infraestructura/sandblasting.jpg'
+                        img='/home/infraestructura/sandblasting.png'
                         alt='Imagen de Área de Sandblasting'
                         title='Área de Sandblasting'
                         id= { 1 }
@@ -53,7 +53,7 @@ export const Infrastructure: FC = () => {
                     />
 
                     <CardInfrastructure 
-                        img='/home/infraestructura/metalmecanica.jpg'
+                        img='/home/infraestructura/metalmecanica.png'
                         alt='Imagen de Área de Metalmecánica'
                         title='Área de Metalmecánica'
                         id= { 2 }
@@ -61,15 +61,15 @@ export const Infrastructure: FC = () => {
                     />
 
                     <CardInfrastructure 
-                        img='/home/infraestructura/puente-electromecanico.jpg'
-                        alt='Imagen de Puentes electromecánicos'
-                        title='Puentes electromecánicos'
+                        img='/home/infraestructura/pintura.png'
+                        alt='Imagen de Área de Pintura'
+                        title='Área de Pintura'
                         id= { 3 }
                         numeroDiv= { numeroDiv }
                     />
 
                     <CardInfrastructure 
-                        img='/home/infraestructura/prensa-mecanica.jpg'
+                        img='/home/infraestructura/prensa-mecanica.png'
                         alt='Imagen de Prensas mecánicas'
                         title='Prensas mecánicas'
                         id= { 4 }
