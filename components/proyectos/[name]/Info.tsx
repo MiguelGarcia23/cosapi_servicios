@@ -49,7 +49,7 @@ export const InfoProject: FC<Props> = ({ duration, image_company, year }) => {
                         src= {`/companies/${ image_company }`}
                         alt= 'Imagen de Compañía del trabajo'
                         width= { 255 }
-                        height= { 100 }
+                        height= { 80 }
                     />
                 </Box>
 

@@ -48,8 +48,8 @@ export const ClientsAboutUs: FC = () => {
                     <Image 
                         src='/aboutUs/logo-petrosucre.png'
                         alt='Logo de PDVSA Petrosucre'
-                        width={ 250 }
-                        height={ 100 }
+                        width={ 210 }
+                        height={ 60 }
                     />
                 </Box>
 
