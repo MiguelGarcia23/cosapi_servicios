@@ -54,7 +54,7 @@ export const ProjectsDiagnostic: FC = () => {
                         img='/diagnostic/diagnostic-projects-number-1.svg'
                         alt='Imagen de paso 1'
                         title='Reunión'
-                        info='Tendrás una reunión con algunos de nuestros profesionales donde plantearás tus ideas. y podremos coordinar necesidades, tiempos y presupuesto'
+                        info='Tendrás una reunión con algunos de nuestros profesionales donde plantearás tus ideas y podremos coordinar necesidades, tiempos y presupuesto'
                     />
 
                     <CardProjectsDiagnostic 

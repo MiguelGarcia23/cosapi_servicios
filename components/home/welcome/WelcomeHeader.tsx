@@ -15,7 +15,7 @@ export const WelcomeHeader: FC = () => {
         </Typography>
 
         <Typography variant='h4' color='info.dark' className={ styles['welcome-paragraph'] }>
-          Somos una empresa multidisciplinaria dedicada a la prestación de servicios integrales y al suministro de productos de vanguardia para el desarrollo y ejecución de proyectos en la industria petrolera y petroquímica, enérgica, minera y mucho más
+          Somos una empresa multidisciplinaria dedicada a la prestación de servicios integrales y al suministro de productos de vanguardia para el desarrollo y ejecución de proyectos en la industria petrolera, petroquímica, enérgica, minera y mucho más
         </Typography>
         
     </Box>
